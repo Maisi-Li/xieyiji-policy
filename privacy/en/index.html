@@ -11,24 +11,36 @@
 </head>
 <body>
 <header><a class="brand" href="/xieyiji-policy/">XieYiJi</a>
-<nav aria-label="Languages"><a href="/xieyiji-policy/privacy/zh-Hans/" lang="zh-Hans" >简体中文</a><a href="/xieyiji-policy/privacy/en/" lang="en" aria-current="page">English</a></nav></header>
-<main><h1>XieYiJi Privacy Policy</h1><p class="updated">Last updated: October 14, 2026</p>
-<h2>On-device records and preferences</h2>
-<p>XieYiJi stores journal names, dates, text, Tags, sync state, and upload queues in its on-device app data directory. Original photos and videos are separate files. Appearance, text styles, prompts, nickname, reminders, startup and last-opened journals, and comment-author identity bindings are device-local preferences. Original media may include metadata such as capture time and location.</p>
-<p>The current Release interface does not expose an app-owned recording or press-to-speak feature. The operating system controls system-keyboard dictation.</p>
-<h2>iCloud sync and sharing</h2>
-<p>When iCloud is available, content and original media sync through Apple CloudKit to your private database or an invited shared database. XieYiJi has no developer-operated content server. You can continue writing in an existing local journal if iCloud is unavailable. Pending sync work remains in the on-device queue. A fresh Release install without a local journal stops at initial discovery if iCloud is unavailable.</p>
-<p>Shared journals use private invitations. Members access content according to their permissions; members with editing permission can edit or delete content. Owners can remove members or stop sharing. Original files and their metadata may accompany synced or shared content.</p>
-<h2>System permissions</h2>
-<p>Adding media uses the system photo picker. The app asks for permission to add to Photos only when you choose to save original media, and notification permission when you enable reminders. Denying these permissions does not prevent text writing. You can change permissions in system settings.</p>
-<h2>Support</h2>
-<p>Contact: <a href="mailto:lmaxstevens@gmail.com">lmaxstevens@gmail.com</a>. You choose whether to send an email and what to include. Avoid sending unrelated journal text or original media. Your chosen email service and the recipient&#x27;s email service handle email delivery.</p>
-<p>The developer personally handles support emails and retains them for 30 days after case closure. The developer does not forward support emails.</p>
-<h2>Retention and deletion</h2>
-<p>Switch to another journal before deleting a whole journal or leaving a share. Create another owned journal before deleting your last owned journal. After cloud confirmation, the app cleans up the target&#x27;s on-device data. A failed media-directory deletion keeps a successfully written cleanup marker and retries on later launches. If storage cannot persist the marker or remove files, the app reports incomplete cleanup.</p>
-<p>Files for individually deleted media may remain for undo, synchronization, or retained deletion records. Stopping sharing or removing a member cannot remove copies already saved, exported, or sent elsewhere. Delete those copies in their separate destinations. Uninstalling the app does not delete iCloud journals.</p>
-<h2>Other information</h2>
-<p>XieYiJi has no ads, tracking SDKs, third-party login, or app-operated account registration. You can skip nickname entry.</p>
+<nav aria-label="Language"><a href="/xieyiji-policy/privacy/zh-Hans/" lang="zh-Hans">简体中文</a><a href="/xieyiji-policy/privacy/en/" lang="en" aria-current="page">English</a></nav></header>
+<main><h1>XieYiJi Privacy Policy</h1><p class="updated">Effective date: October 29, 2026</p><p class="updated">Last updated: October 29, 2026</p>
+<p>XieYiJi (“the app”) is developed and operated by an independent developer (“we”, “us”). We do not operate any server that stores your journal content, and we cannot see your journals.</p>
+<h2>1. Overview</h2>
+<ul><li>Your journals are stored only on your devices and in your own iCloud account.</li><li>The app has no ads, no third-party analytics or tracking tools, and no account registration.</li></ul>
+<h2>2. Information we handle</h2>
+<ol><li><strong>Journal content</strong>: journal names, dates, text, Tags, Comments, and the photos and videos you add. Photos and videos are kept unchanged and may include metadata such as capture time and location.</li><li><strong>Nickname</strong>: used to identify content authors in shared journals. You can skip it and change it at any time.</li><li><strong>Subscription status</strong>: the app reads from Apple whether you have Premium and when it expires. We never receive your payment information.</li><li><strong>Settings and preferences</strong>: appearance, text style, prompts, reminder times, and similar settings stay on this device.</li></ol>
+<h2>3. Where your information is stored</h2>
+<ul><li><strong>On your device</strong>: in the app's sandboxed container, which other apps cannot access.</li><li><strong>iCloud</strong>: when iCloud is available, journal content, your nickname, and Premium-related status sync through Apple CloudKit to your iCloud account for use on your other devices. Apple stores and protects this data under the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>, and its servers may be located outside your country or region.</li><li>If iCloud is temporarily unavailable, you can keep writing in journals already on your device. Pending changes stay on the device and upload when iCloud is available again.</li></ul>
+<h2>4. Shared journals</h2>
+<p>You can share a journal with others through a private invitation. Once it is shared:</p>
+<ul><li>Members can see all of that journal's content, including photos, videos, and their metadata.</li><li>If you post a Comment, members can see the author's nickname.</li><li>Members with editing permission can edit or delete content.</li><li>Members can see whether the owner has Premium, because it determines whether members can edit.</li><li>The owner can remove members or stop sharing at any time, but cannot recall copies that members have already saved or sent elsewhere.</li></ul>
+<h2>5. System permissions</h2>
+<table><thead><tr><th scope="col">Permission</th><th scope="col">Purpose</th><th scope="col">When it is requested</th></tr></thead><tbody><tr><td>Photos (add only)</td><td>Save photos or videos from a journal to Photos</td><td>When you choose to save</td></tr><tr><td>Notifications</td><td>Writing reminders</td><td>When you turn on reminders</td></tr></tbody></table>
+<p>Adding photos and videos uses the system photo picker and does not require access to your photo library. Declining any permission does not prevent writing, and you can change permissions in system settings at any time. When you use system keyboard dictation, speech is handled by the operating system; the app does not keep recordings.</p>
+<h2>6. Third-party services</h2>
+<table><thead><tr><th scope="col">Service</th><th scope="col">Purpose</th></tr></thead><tbody><tr><td>Apple iCloud / CloudKit</td><td>Syncing and sharing journals</td></tr><tr><td>Apple App Store</td><td>Processing purchases and subscriptions</td></tr><tr><td>GitHub Pages</td><td>Hosting this policy page (GitHub may log visitor IP addresses for security purposes)</td></tr></tbody></table>
+<h2>7. Retention and deletion</h2>
+<ul><li>When you delete a whole journal, its data is removed from your iCloud account and this device. After you delete a single photo or video, its file may remain temporarily to support undo and multi-device sync before it is cleaned up.</li><li>Uninstalling the app does not delete journals from iCloud. To delete them completely, delete the journals in the app, or go to Settings &gt; [your name] &gt; iCloud &gt; Manage Account Storage and delete XieYiJi's data.</li></ul>
+<h2>8. Your rights</h2>
+<p>Your data stays on your own devices and in your own iCloud account. You can view, edit, or delete your journal content and nickname in the app at any time, turn off iCloud sync, or withdraw system permissions. For any other request about your personal information, email us and we will respond within 30 days.</p>
+<h2>9. Support email</h2>
+<p>Email you choose to send us is used only to resolve your issue. The developer handles it personally, keeps it for 30 days after the issue is resolved, then deletes it, and never forwards it to others. You decide whether to send an email and what to include; please do not attach journal text, photos, or videos unrelated to the issue. Sending and receiving email is handled by the email services that you and we use.</p>
+<h2>10. Children</h2>
+<p>We do not knowingly collect personal information from children. If you are under 13 (or a higher age required where you live), please use the app with the consent of a parent or guardian.</p>
+<h2>11. Changes to this policy</h2>
+<p>When this policy changes, we will update the “Last updated” date at the top of this page. We will describe significant changes in the app's release notes.</p>
+<h2>12. Contact us</h2>
+<p>Email: <a href="mailto:lmaxstevens@gmail.com">lmaxstevens@gmail.com</a></p>
+<p>You can also view or copy the address, or open your email app, from Help &amp; Feedback in the app.</p>
 </main>
 <footer><p>This website uses GitHub Pages. GitHub logs visitors’ IP addresses for security purposes. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">GitHub hosting and visit logging information</a></p></footer>
 </body></html>
